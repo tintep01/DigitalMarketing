@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400');
+
+body {
+    background: #f4f7fc;
+    color: #373737;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.1rem;
+    overflow-x: hidden;
+}
+
+a#home {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    background: rgba(55, 55, 55, 0.75);
+
+    & a {
+        color: #FFF;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    &-nav {
+        margin: 0 auto;
+    }
+
+    &-toggler {
+        background-color: #393b3d;
+        border: 1px solid #f9f9f9;
+        border-radius: 0;
+    }
+
+    &-toggler-icon {
+        color: #FFF;
+    }
+}
+
+.form-group>label {
+    margin-bottom: 0rem;
+}
+
+.form-control {
+    font-size: .8rem;
+    border-radius: 0;
+}
+
+.full-bleed-section {
+    margin-left: -10000px;
+    margin-right: -10000px;
+    padding-left: 10000px;
+    padding-right: 10000px;
+}
+
+.section-clr-1 {
+    background: #f4f7fc;
+}
+
+.section-clr-2 {
+    background-image: radial-gradient(circle,#74c954,#4d9f30);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section-clr-3 {
+    background-image: radial-gradient(circle,#c24dd9,#7d2f9f);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section-clr-4 {
+    background-color: #f6f6f6;
+    background-image: radial-gradient(circle,#f6f6f6,#ececec);
+    background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    max-height: 70vh;
+}
+
+p.lead {
+    font-size: 1.1rem;
+    text-indent: 2rem;
+}
+
+h2.marketing-heading {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.marketing {
+    padding: 2.5rem 0;
+}
+
+.gallery {
+    padding: 2.5rem 0;
+}
+
+.contact {
+    background: #333;
+    color: #FFF;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    &>h2 {
+        color: #CCC;
+        margin: 3rem 0;
+        text-decoration: overline;
+    }
+}
+
+footer {
+    background: #373737;
+    color: #FFF;
+    padding: 1rem 0;
+
+    & p {
+        color: #ababab;
+        font-size: .8rem;
+        margin: 0;
+        padding: 0;
+    }
+}
