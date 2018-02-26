@@ -38,6 +38,10 @@ a#home {
     }
 }
 
+.form-group {
+    position: relative;
+}
+
 .form-group>label {
     margin-bottom: 0rem;
 }
@@ -47,11 +51,22 @@ a#home {
     border-radius: 0;
 }
 
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
 .full-bleed-section {
-    margin-left: -10000px;
-    margin-right: -10000px;
-    padding-left: 10000px;
-    padding-right: 10000px;
+    // margin-left: -10000px;
+    // margin-right: -10000px;
+    // padding-left: 10000px;
+    // padding-right: 10000px;
 }
 
 .section-clr-1 {
@@ -122,4 +137,9 @@ footer {
         margin: 0;
         padding: 0;
     }
+}
+
+// modal
+.modal-body {
+    padding: 0;
 }

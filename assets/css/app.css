@@ -26,6 +26,9 @@ a#home {
   .navbar-toggler-icon {
     color: #FFF; }
 
+.form-group {
+  position: relative; }
+
 .form-group > label {
   margin-bottom: 0rem; }
 
@@ -33,11 +36,15 @@ a#home {
   font-size: .8rem;
   border-radius: 0; }
 
-.full-bleed-section {
-  margin-left: -10000px;
-  margin-right: -10000px;
-  padding-left: 10000px;
-  padding-right: 10000px; }
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+  position: absolute;
+  left: 0;
+  bottom: -20px; }
 
 .section-clr-1 {
   background: #f4f7fc; }
@@ -93,5 +100,8 @@ footer {
     font-size: .8rem;
     margin: 0;
     padding: 0; }
+
+.modal-body {
+  padding: 0; }
 
 /*# sourceMappingURL=app.css.map */
